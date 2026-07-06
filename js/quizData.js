@@ -1,0 +1,33 @@
+// answer が正解。choices は表示時に毎回シャッフルされます。
+export const QUIZZES = [
+  { id:"q01", text:"血脈を主り、神を蔵す五臓は？", answer:"心", choices:["心","肝","脾","肺"], category:"organ", tags:["heart"], hint:"国の君主として血と心をまとめます。" },
+  { id:"q02", text:"心が開竅する場所は？", answer:"舌", choices:["舌","目","鼻","耳"], category:"opening", tags:["heart"], hint:"味や言葉に関わる場所です。" },
+  { id:"q03", text:"心と関係が深い感情は？", answer:"喜", choices:["喜","怒","思","恐"], category:"emotion", tags:["heart"], hint:"うれしい時に弾む臓です。" },
+  { id:"q04", text:"心が属する五行は？", answer:"火", choices:["火","木","土","金"], category:"element", tags:["heart"], hint:"夏の熱さを思い出しましょう。" },
+  { id:"q05", text:"心と表裏関係にある六腑は？", answer:"小腸", choices:["小腸","胆","胃","大腸"], category:"pair", tags:["heart"], hint:"清と濁を仕分ける六腑です。" },
+  { id:"q06", text:"心と関係する季節は？", answer:"夏", choices:["夏","春","秋","冬"], category:"season", tags:["heart"], hint:"五行の火が盛んな季節です。" },
+  { id:"q07", text:"心が蔵し、精神活動を支えるものは？", answer:"神", choices:["神","精","血","津液"], category:"organ", tags:["heart"], hint:"意識や心の働きを表す一字です。" },
+  { id:"q08", text:"感情を失い、舌の色も淡い。関係が深い臓は？", answer:"心", choices:["心","肺","腎","脾"], category:"case", tags:["heart"], hint:"神と舌の両方に関係します。" },
+
+  { id:"q09", text:"疏泄を主る五臓は？", answer:"肝", choices:["肝","心","脾","腎"], category:"organ", tags:["liver"], hint:"気の交通整理をする武将です。" },
+  { id:"q10", text:"肝と表裏関係にある六腑は？", answer:"胆", choices:["胆","胃","小腸","膀胱"], category:"pair", tags:["liver"], hint:"決断を助ける騎士です。" },
+  { id:"q11", text:"肝が開竅する場所は？", answer:"目", choices:["目","舌","口","鼻"], category:"opening", tags:["liver"], hint:"見通す力に関係します。" },
+  { id:"q12", text:"肝と関係が深い感情は？", answer:"怒", choices:["怒","喜","悲","恐"], category:"emotion", tags:["liver"], hint:"流れが詰まると高ぶりやすい感情です。" },
+  { id:"q13", text:"肝が属する五行は？", answer:"木", choices:["木","火","土","水"], category:"element", tags:["liver"], hint:"春にのびやかに育ちます。" },
+  { id:"q14", text:"肝と関係する季節は？", answer:"春", choices:["春","夏","秋","冬"], category:"season", tags:["liver"], hint:"木が芽吹く季節です。" },
+  { id:"q15", text:"肝が貯蔵し、必要に応じて調整するものは？", answer:"血", choices:["血","神","精","尿"], category:"organ", tags:["liver"], hint:"この働きを蔵血といいます。" },
+  { id:"q16", text:"イライラし、目が疲れ、筋がつる。関係が深い臓は？", answer:"肝", choices:["肝","心","脾","肺"], category:"case", tags:["liver"], hint:"怒・目・筋が手がかりです。" },
+
+  { id:"q17", text:"運化を主る五臓は？", answer:"脾", choices:["脾","心","肺","腎"], category:"organ", tags:["future"] , hint:"栄養を運ぶ配達員です。" },
+  { id:"q18", text:"脾と表裏関係にある六腑は？", answer:"胃", choices:["胃","胆","大腸","膀胱"], category:"pair", tags:["future"], hint:"食べ物を受け入れる料理人です。" },
+  { id:"q19", text:"宣発と粛降を行う五臓は？", answer:"肺", choices:["肺","肝","脾","腎"], category:"organ", tags:["future"], hint:"呼吸を主る司令官です。" },
+  { id:"q20", text:"肺と表裏関係にある六腑は？", answer:"大腸", choices:["大腸","小腸","胃","胆"], category:"pair", tags:["future"], hint:"糟粕を伝導します。" },
+  { id:"q21", text:"精を蔵す五臓は？", answer:"腎", choices:["腎","肝","心","肺"], category:"organ", tags:["future"], hint:"成長を支える命の泉です。" },
+  { id:"q22", text:"腎と表裏関係にある六腑は？", answer:"膀胱", choices:["膀胱","三焦","胆","胃"], category:"pair", tags:["future"], hint:"尿を貯めて排泄します。" },
+  { id:"q23", text:"受納と腐熟を行う六腑は？", answer:"胃", choices:["胃","小腸","大腸","三焦"], category:"fu", tags:["future"], hint:"食べ物を迎える大鍋です。" },
+  { id:"q24", text:"清濁を泌別する六腑は？", answer:"小腸", choices:["小腸","胃","胆","膀胱"], category:"fu", tags:["future"], hint:"清いものと濁ったものを分けます。" },
+  { id:"q25", text:"糟粕を伝導する六腑は？", answer:"大腸", choices:["大腸","胃","胆","三焦"], category:"fu", tags:["future"], hint:"排便に関係する清掃員です。" },
+  { id:"q26", text:"気と水液が通る機能的な通路は？", answer:"三焦", choices:["三焦","胃","胆","小腸"], category:"fu", tags:["future"], hint:"上焦・中焦・下焦をつなぎます。" },
+  { id:"q27", text:"五行の相生で、木の次は？", answer:"火", choices:["火","土","金","水"], category:"element", tags:["future"], hint:"木が燃えると生まれます。" },
+  { id:"q28", text:"五行の相生の正しい順は？", answer:"木→火→土→金→水", choices:["木→火→土→金→水","木→土→水→火→金","火→木→金→土→水","水→火→木→金→土"], category:"element", tags:["future"], hint:"木が火を生み、最後に水が木を育てます。" },
+];
